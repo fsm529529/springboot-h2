@@ -18,7 +18,6 @@ import java.util.Optional;
  * @Date: 2019/8/6 0006 21:48
  */
 @RestController
-@RequestMapping("")
 public class MyController {
 
     @Resource
