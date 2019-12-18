@@ -20,7 +20,7 @@ import javax.persistence.Table;
 @Table(name = "course")
 public class CourseDO {
     @Id
-    private Integer id;
+    private Long id;
     @Column(name = "course_name")
     private String course;
     private String classroom;

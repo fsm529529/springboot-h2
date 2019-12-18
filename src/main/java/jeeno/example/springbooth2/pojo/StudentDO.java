@@ -18,7 +18,7 @@ import javax.persistence.*;
 public class StudentDO {
 
     @Id
-    private Integer id;
+    private Long id;
     @Column(name = "no")
     private String stuNo;
     private String name;
